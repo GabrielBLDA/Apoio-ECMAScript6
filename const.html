@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <script type="text/babel">
+
+        //const são declaradas para aquelas variaveis que não devem ser modificadas jamais. utilizadas para armazenar senhas ou links de APIs
+
+        const SERIE = 'Friends'
+
+        function x(){
+            const SERIE = 'The Walking Dead'
+            console.log('dentro da Função: ' + SERIE)
+        }
+
+        x()
+
+        console.log('escopo Global: ' + SERIE)
+	
+    </script>
+
+</head>
+<body>
+   <h1> aaa </h1>
+</body>
+</html>
